@@ -43,12 +43,12 @@ CREATE TABLE pokedex (
 );
 
 BULK INSERT pokedex
-    FROM 'E:\Documents\Programming\SQL_Tables\pokedex.csv'
+    FROM 'C:\Documents\pokedex.csv'
     WITH
     (
     FIRSTROW = 2,
     FIELDTERMINATOR = ',',  --CSV field delimiter
     ROWTERMINATOR = '\n',   --Use to shift the control to next row
-    ERRORFILE = 'E:\Documents\Programming\SQL_Tables\PokemonErrorRows.csv',
+    ERRORFILE = 'C:\Documents\PokemonErrorRows.csv',
     TABLOCK
     )
