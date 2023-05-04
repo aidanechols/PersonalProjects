@@ -36,7 +36,7 @@ CREATE TABLE pokedex (
  Poni int,
  SWSH int, 
  IOA int, 
- CVT int,
+ CT int,
  LA	int,
  SV int
  PRIMARY KEY (pnpk)
